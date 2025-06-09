@@ -1,0 +1,24 @@
+// Botões
+        confirmarButton = new JButton("Confirmar");
+        confirmarButton.setBounds(10, 490, 100, 30);
+        confirmarButton.setBackground(new Color(255, 102, 0));
+        confirmarButton.setForeground(Color.WHITE);
+
+        excluirButton = new JButton("Excluir");
+        excluirButton.setBounds(120, 490, 100, 30);
+        excluirButton.setBackground(new Color(255, 153, 51));
+        excluirButton.setForeground(Color.WHITE);
+
+        limparButton = new JButton("Limpar");
+        limparButton.setBounds(230, 490, 100, 30);
+        limparButton.setBackground(new Color(230, 230, 230));
+
+        painel.add(confirmarButton);
+        painel.add(excluirButton);
+        painel.add(limparButton);
+
+        this.add(painel);
+        this.setSize(780, 580);
+        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        this.setVisible(true);
+    }
